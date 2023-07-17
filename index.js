@@ -3,24 +3,46 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 "0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
 "~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"];
 
+
 let passwordOne = document.querySelector("#passOne")
 let passwordTwo = document.querySelector("#passTwo")
 
-function generateString() {
-    passwordOne.textContent = []
-    passwordTwo.textContent = []
 
-    for (let i = 0; i < 15; i++) {
-        
-        passwordOne.textContent += characters[Math.floor (Math.random() *characters.length)]
-        passwordTwo.textContent += characters[Math.floor (Math.random() *characters.length)]
- 
+function getRandomPassword() {
+    let password = []
+    for (let i = 0; i < 15; i++){
+        password += characters[Math.floor (Math.random() *characters.length)]
     }
-} 
+    return password
+}
+
+function generatePasswords(){
+    passwordOne.textContent = getRandomPassword()
+    passwordTwo.textContent = getRandomPassword()
+   
+}
 
 
 
-// above works well - but D.R.Y
+
+
+
+
+
+// function generateString() {
+//     passwordOne.textContent = []
+//     passwordTwo.textContent = []
+
+//     for (let i = 0; i < 15; i++) {
+        
+//         passwordOne.textContent += characters[Math.floor (Math.random() *characters.length)]
+//         passwordTwo.textContent += characters[Math.floor (Math.random() *characters.length)]
+ 
+//     }
+// } 
+
+
+// above works - but D.R.Y
 // create getRandom() function and have it generate random password
 // have let RandomPasswordOne = getRandom()
 // have let RandomPasswordTwo = getRandom()
