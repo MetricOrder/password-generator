@@ -44,7 +44,8 @@ function generatePasswords(){
 
 // above works - but D.R.Y
 // create getRandom() function and have it generate random password
-// have let RandomPasswordOne = getRandom()
-// have let RandomPasswordTwo = getRandom()
+// have let RandomPasswordOne & RandomPasswordOne = getRandom()
+//
+
 
 
