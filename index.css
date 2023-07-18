@@ -1,51 +1,69 @@
 body {
-    font-family: 'Karla', sans-serif;
     margin: 0;
     background-color: #1C1C1C;
-    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    width: 1000px;
+    display: flex;
+    margin: auto;
     margin-top: 30px;
-    width: 479px;
-}
-.everything {
-    background-color: #1F2937;
-    padding: 0 30px;
+    height: 800px;
+
 }
 
 h1 {
-    font-size: 50px;
-    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
 
+.h1White {
+    color: white;
+}
+
+.h1Green {
+    color:#4ADF86;
 }
 
 h2 {
-    font-size: 50px;
-    color: #4ADF86;
-
+    font-weight: 400;
+    color: #D5D4D8;
+    margin-bottom: 50px;
 }
 
-button {
+.everything {
+    background-color: #1F2937;
+    padding: 100 150;
+    justify-content: center;
+}
+
+#generator {
+    font-weight: 500;
     color: white;
     background-color: #10B981;
     font-size: 30px;
     padding: 15px;
     border-radius: 5px;
     border: none;
+    margin-bottom: 30px;
 }
 
-.paragraphs {
+.pws {
     display: flex;
 }
 
-p {
+.pwactual{
+    font-weight: 500;
     padding: 10px;
-    margin-top: 60px;
-    width: 200px;
-    height: 30px;
+    margin-top: 30px;
+    width: 350px;
+    height: 45px;
     background-color: #273549;
     color: #4ADF86;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    border-radius: 5px;
+    border: none;
 }
 
 #passOne {
@@ -54,6 +72,11 @@ p {
 
 }
 
-#passTwo {
-
+p {
+    border: #2F3E53 solid 1px;
 }
+
+/* #passTwo {
+
+
+} */

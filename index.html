@@ -3,16 +3,20 @@
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class ="everything">
-            <h1>Generate a</h1>
-            <h2>random password</h2>
-            <button onclick="generatePasswords()"> Generate passwords </button>
-            <div class="paragraphs">
-                <p id="passOne"></p>
-                <p id="passTwo"></p>
+            <h1>
+                <span class="h1White">Generate a</span><br/>
+                <span class="h1Green">random password</span>
+            </h1>
+            <h2>Never use an insecure password again.</h2>
+            <button id="generator" onclick="generatePasswords()"> Generate passwords </button>
+            <p></p>
+            <div class="pws">
+                <button class="pwactual" id="passOne"></button>
+                <button class="pwactual" id="passTwo"></button>
             </div>
         </div>
         <script src="index.js"></script>

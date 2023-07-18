@@ -10,7 +10,7 @@ let passwordTwo = document.querySelector("#passTwo")
 
 function getRandomPassword() {
     let password = []
-    for (let i = 0; i < 15; i++){
+    for (let i = 0; i < 18; i++){
         password += characters[Math.floor (Math.random() *characters.length)]
     }
     return password
@@ -29,6 +29,7 @@ function generatePasswords(){
 
 
 
+// attempt one
 // function generateString() {
 //     passwordOne.textContent = []
 //     passwordTwo.textContent = []
