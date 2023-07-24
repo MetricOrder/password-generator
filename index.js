@@ -22,7 +22,18 @@ function generatePasswords(){
    
 }
 
+function copyPassword() {
+    console.log("test")
+    let copyText = document.getElementById("passOne");
+  
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+  
+    navigator.clipboard.writeText(copyText.value);
+    
+    alert("Copied the text: " + copyText.value);
 
+  }
 
 
 
