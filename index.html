@@ -15,10 +15,14 @@
             <button id="generator" onclick="generatePasswords()"> Generate passwords </button>
             <p></p>
             <div class="pws">
-                <textarea class="pwactual" id="passOne"> </textarea>
-                <p class="pwactual" id="passTwo"></p>
+                <textarea readonly class="pwactual" id="passOne"></textarea>
+                <textarea readonly class="pwactual" id="passTwo"></textarea>
             </div>
-            <button onclick="copyPassword()" >Test</button>
+            <div class="pws">
+                <button onclick="copyOne()" >Test</button>
+                <button onclick="copyTwo()" >Test</button>
+            </div>
+            
         </div>
         <script src="index.js"></script>
     </body>

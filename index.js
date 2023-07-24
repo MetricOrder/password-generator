@@ -22,17 +22,20 @@ function generatePasswords(){
    
 }
 
-function copyPassword() {
-    console.log("test")
+function copyOne() {
     let copyText = document.getElementById("passOne");
-  
     copyText.select();
-    copyText.setSelectionRange(0, 99999);
-  
-    navigator.clipboard.writeText(copyText.value);
-    
-    alert("Copied the text: " + copyText.value);
+    copyText.setSelectionRange(0, 99999);  
+    navigator.clipboard.writeText(copyText.value);    
+    alert("Password Copied!");
+  }
 
+  function copyTwo() {
+    let copyText = document.getElementById("passTwo");  
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);  
+    navigator.clipboard.writeText(copyText.value);    
+    alert("Password Copied!");
   }
 
 

@@ -49,12 +49,14 @@ h2 {
 
 .pws {
     display: flex;
+    justify-content: space-around;
 }
 
 .pwactual{
     font-weight: 500;
     padding: 10px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin: 30 10 10 0;
     width: 350px;
     height: 45px;
     background-color: #273549;
@@ -66,17 +68,11 @@ h2 {
     border: none;
 }
 
-#passOne {
-    margin-right: 35px;
-
-
-}
-
 p {
     border: #2F3E53 solid 1px;
 }
 
-/* #passTwo {
+textarea {
+    resize: none;
+}
 
-
-} */
