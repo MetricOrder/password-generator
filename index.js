@@ -27,7 +27,6 @@ function copyOne() {
     copyText.select();
     copyText.setSelectionRange(0, 99999);  
     navigator.clipboard.writeText(copyText.value);    
-    alert("Password Copied!");
   }
 
   function copyTwo() {
@@ -35,7 +34,6 @@ function copyOne() {
     copyText.select();
     copyText.setSelectionRange(0, 99999);  
     navigator.clipboard.writeText(copyText.value);    
-    alert("Password Copied!");
   }
 
 

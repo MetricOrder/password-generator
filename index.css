@@ -52,11 +52,11 @@ h2 {
     justify-content: space-around;
 }
 
-.pwactual{
+.pwactual {
     font-weight: 500;
     padding: 10px;
     /* margin-top: 30px; */
-    margin: 30 10 10 0;
+    margin: 30 20 10 0;
     width: 350px;
     height: 45px;
     background-color: #273549;
@@ -66,6 +66,17 @@ h2 {
     text-align: center;
     border-radius: 5px;
     border: none;
+}
+
+.copybutton {
+    margin: 10 20 10 0;
+    padding: 8px;
+    font-size: 18px;
+    color: white;
+    background-color: #10B981;
+    border-radius: 5px;
+    border: none;
+
 }
 
 p {
